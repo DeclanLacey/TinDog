@@ -1,0 +1,150 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: whitesmoke;
+}
+
+/* /////////////////////////////////// Container 1 //////////////////////// */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 0 auto;
+    padding: 8px;
+}
+.img-header1, 
+.img-header3 {
+    width: 25px;
+}
+
+.img-header1 {
+    margin-left: 5px;
+}
+
+.img-header3 {
+    margin-right: 5px;
+}
+.img-header2 {
+    width: 50px;
+}
+
+/* /////////////////////////////////// Container 2 //////////////////////// */
+
+
+
+#like-badge {
+    position: absolute;
+    width: 140px;
+   transform: rotate(30deg);
+    right: 10px;
+    top: 33px;
+    display: none;
+}
+
+#dislike-badge {
+    position: absolute;
+    width: 140px;
+    left: 10px;
+    top: 33px;
+    transform: rotate(-30deg);
+    display: none;
+}
+
+
+.dog-img {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.badge-container {
+    width: 350px;
+    margin: 0 auto;
+    height: 200px;
+    transform: translate(0px, -457px);
+    margin-bottom: -200px;
+}
+
+.dog-name-age {
+    width: 350px;
+    font-size: 1.1rem;
+    bottom: 10px;
+    color: white;
+    font-weight: 700;
+    margin-top: -50px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: -60px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.dog-bio {
+    width: 350px;
+    font-size: .7rem;
+    font-weight: 200;
+    color: white;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-bottom: 20px
+}
+
+.dog-info-div {
+    position: absolute;
+}
+
+/* /////////////////////////////////// Container 3 //////////////////////// */
+
+.container3 {
+    margin-top: 5px;
+}
+
+#dislike-btn {
+    background-image: url(images/icon-cross.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border-radius: 50px;
+    margin-right: 20px;
+    border: none;
+    background-size: 40%;
+    transform: scale(1);
+}
+
+#like-btn {
+    background-image: url(images/icon-heart.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    background-size: 50%;
+    transform: scale(1);
+}
+
+#like-btn:hover {
+    background-color: #DBFFF4;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#dislike-btn:hover {
+    background-color: #FFE7EF;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+
+
